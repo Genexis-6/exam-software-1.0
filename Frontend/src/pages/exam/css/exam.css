@@ -1,0 +1,52 @@
+.exam{
+    width: 100%;
+    min-height:70vh;
+    height: fit-content;
+    transition: all 0.6s ease-in-out;
+    animation-delay: 2s;
+    animation: show-home 0.7s ease-in forwards;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.questions-options{
+    background-color: rgb(243, 239, 239);
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+
+}
+
+.question-section{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.question-section .qest{
+    max-width: 700px;
+}
+.question-section button{
+    margin:  0 20px 0 20px;
+}
+.question-section .options p{
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .questions-options{
+        height: 30vh;
+        width: 320px;
+        margin: 0 auto;
+    }
+}
+
+input:checked{
+    background-color: green;
+    border-color: green;
+}

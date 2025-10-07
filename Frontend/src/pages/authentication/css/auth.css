@@ -1,0 +1,71 @@
+.img-section{
+    background-image: url("../../../assets/images/background-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 70vh;
+}
+
+.login-logo{
+    background-image: url("../../../assets/images/login-logo.png");
+    height: 150px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 0 auto;
+}
+.form-section form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.form-section form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+
+}
+
+form div label{
+    font-weight: bold;
+}
+
+.form-section form div input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.form-section button{
+    width: 200px;
+    margin: 0 auto;
+} 
+
+.form-section .eye{
+    position: absolute;
+    margin: 30px 0 0 280px;
+}
+
+.bg-img{
+    background-image:url("../../../assets/images/bg-1.png");
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -100;
+    position: absolute;
+    margin: 200px 0 0 20%;
+    
+}
+.logout-bg{
+    background-position: left left;
+}

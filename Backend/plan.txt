@@ -1,0 +1,9 @@
+entities:students, admin, genexis 
+student can:
+    login,
+    search for exams,
+    see exams the the admin has uploaded
+    select only exams that they have been registered by the admin
+    start the exam & submit any time (or timed out)
+    can't retake same exam & see thier score after the exam in table format 
+
