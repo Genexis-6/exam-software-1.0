@@ -1,3 +1,4 @@
-/testing-excel/
-./Backend/alembic
-./Backend/alembic.ini
+
+Backend/alembic
+Backend/.env
+Backend/alembic.ini
